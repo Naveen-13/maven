@@ -30,5 +30,5 @@ ARG artifact_id
 ARG version
 COPY --from=build /app/target/${artifact_id}.war /usr/local/tomcat/webapps
 EXPOSE 8080
-```
+``
 
